@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Erick Rios - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/icon.webp" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/profile-Photoroom.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Erick Rios</h1>
+
+          <p class="title">Data Science and </p>
+          <p  class ="title">Quantum Computer Scientist</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:erickjesusriosgonzalez@gmail.com" class="contact-link">erickjesusriosgonzalez@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+52 (951) 587-1972</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">November 05, 2000</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Coyoacán, Mexico City, MX</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+          <li class="navbar-item"></li>
+            <button class="navbar-link" data-nav-link>Articles</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Passionate Data Scientist and Quantum Computer Scientist with a Physics and Mathematics degree from UAM and UNAM, respectively. Skilled in Python, R, C++, Java, SQL, and cloud technologies. Experienced in machine learning and big data, currently developing a quantum computer simulator with Qiskit. Open to challenging data science projects.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-cloud-compute.svg
+                " alt="icon-cloud-compute" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cloud Compute</h4>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">High Performance Computing</h4>
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analytics</h4>
+              </div>
+
+            </li>
+
+          </li>
+
+          <li class="service-item">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Quantum Computing</h4>
+            </div>
+
+          </li>
+
+        </li>
+
+        <li class="service-item">
+
+          <div class="service-icon-box">
+            <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+          </div>
+
+          <div class="service-content-box">
+            <h4 class="h4 service-item-title">Algorithm Design</h4>
+
+          </div>
+
+        </li>
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/63129349.jpeg" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>David Quero</h4>
+                <time datetime="2021-06-14">B.Sc. Computer Science</time>
+                <time datetime="2021-06-14">Software Developer C3AI</time>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Working with Erick was an exceptional experience. He is a brilliant data scientist , 
+                    and his expertise was invaluable in our project. 
+                    Together, we developed a neural network that generated captivating baroque music 
+                    from complex datasets. Erick's deep understanding of machine learning and his commitment 
+                    to excellence ensured that our project not only met but exceeded our expectations. 
+                    His collaborative spirit and innovative mindset truly set him apart. 
+                    I look forward to working with him on future projects!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/WhatsApp Image 2024-09-21 at 12.19.32.jpeg" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Mariana Schulz</h4>
+                <time datetime="2021-06-14">M.Sc. University of Lille</time>
+                <time datetime="2021-06-14">Photonics and Complex Systems</time>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Erick was instrumental in our recent project, serving as the software developer 
+                    specializing in CUDA. We were incredibly impressed with his expertise and dedication. 
+                    He brings a wealth of experience in data science, always prioritizing the project's needs. 
+                    His ability to translate complex concepts into efficient code was invaluable. Erick's 
+                    commitment to excellence and innovative approach truly set him apart in the field.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+          </ul>
+
+        </section>
+
+
+      <!--
+        - testimonials modal
+      -->
+
+      <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+          <h3 class="h3 clients-title">Where I've been working</h3>
+        
+          <ul class="clients-list has-scrollbar">
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/ictp-logo-small.png" alt="client logo">
+              </a>
+            </li>
+        
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/FhNwMtCXgAEojrE.png" alt="client logo">
+              </a>
+            </li>
+        
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/Logo_FC_Blanco.png" alt="client logo">
+              </a>
+            </li>
+        
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-web-oficial.png" alt="client logo">
+              </a>
+            </li>
+        
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/DiDi-Logo.png" alt="client logo">
+              </a>
+            </li>
+          </ul>
+        </section>
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Metropolitan Autonomous Univesity</h4>
+              <span>B.Sc. Physics</span>
+              <span>2019 — 2023</span>
+
+              <p class="timeline-text">
+                Concentration in Quantum Computing. <br>
+                GPA: 3.72/4.00<br>
+              </p>
+      
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">National Autonomous University of Mexico</h4>
+              <span>B.Sc. Mathematics</span>
+              <span>2020 — 2024</span>
+            
+              <p class="timeline-text">
+                Concentration in Computer Science.<br>
+                GPA: 3.80/4.00<br>
+              </p>
+            
+            </li>
+            
+
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item"></li>
+
+            <h4 class="h4 timeline-item-title">Teaching Assistant</h4>
+            <span>Faculty of Sciences, UNAM</span>
+            <span>CDMX, Mexico</span>
+            <span>Aug/2024 - Present</span>
+            
+            <p class="timeline-text">
+              <ul>
+                <li> - Created engaging educational materials and interactive lesson plans to foster student learning and enhance comprehension.</li>
+                <li> - Guided students in mastering High Performance Computing techniques, empowering them to develop robust algorithms and innovative solutions.</li>
+                <li> - Designed and optimized CUDA scripts for various optimization problems, significantly improving algorithm assessment efficiency and enhancing students' practical coding skills through collaborative projects.</li>
+              </ul>
+            </p>            
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Undergraduate Researcher</h4>
+              <span>Abdus Salam International Centre for Theoretical Physics </span>
+              <span>Trieste, Italy</span>
+              <span>May/2024</span>
+
+              <p class="timeline-text">
+                <ul>
+                  <li> - Implemented advanced topics in Mathematics for machine learning, improving training efficiency on complex data by 40%</li>
+                  <li> - Analyzed large amount of data using Topoogical Data Analysis techniques</li>
+                  <li> - Engineered advanced high-dimensional statistical Python code to assess machine learning algorithms, reducing computational time by 40% and increasing algorithm evaluatin accuracy by 25% in a team of 4 data scientists.</li>
+                </ul>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Science Intern</h4>
+              <span>Didi Chuxing Technoloy Co.</span>
+              <span>CDMX, Mex.</span>
+              <span>Jun/2023-Oct/2023</span>
+
+              <p class="timeline-text">
+                <ul>
+                  <li> - Developed advanced Python algorithms to develop robust data models for Dark Kitchen DiDi in LATAM; facilitated strategic decisions that boosted operational efficiency by 30% and reduced data processing time by 50%</li>
+                  <li> - Built Power BI dashboards, focusing on data quality to highlight key performance metrics and actionable insights</li>
+                  <li> - Enhanced dat accuracy by 25% through rigorous data cleaning and validation processes</li>
+                  <li> - Collaborated with cross-functional teams to integrate data sources and optimize reporting workflows</li>
+                </ul>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Science Researcher</h4>
+              <span>Metropolitan Autonomous University</span>
+              <span>CDMX, Mex.</span>
+              <span>May/2021-Oct/2024</span>
+
+              <p class="timeline-text">
+                <ul>
+                  <li> - Designed of object-oriented code to create a database for the 2D Ising Model</li>
+                  <li> - Implemented parallel computing techniques, achieving a 33% increase in code efficiency</li>
+                  <li> - Leveraged high-performance computing patterns using MAX PLANCK INSTITUTE resources, enhancing computational efficiency by 40% and accelerating mathematical simulations by 25%, leading to groundbreaking research advancements in theoretical mathematics.</li>
+                  <li> - Executed complex data analysis leveraging PySpark and Matplotlib, uncevering insights that improved data processing efficiency by 30%</li>
+                  <li> - Created Convolutional Neural Network (CNN) for predictions, achieving an accuracy of 93%</li>
+                </ul>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Sotware Development</h5>
+                <data value="80">88%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 88%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Artificial Intelligence Development</h5>
+                <data value="70">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Analytical Thinking</h5>
+                <data value="90">95%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Teamwork</h5>
+                <data value="50">93%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 93%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Scientific Software</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Artificial Intelligence</button>
+            </li>
+
+            <li class="filter-item"></li>
+              <button data-filter-btn>Data Analysis</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Quantum Computing</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Scientific Software</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Artificial Intelligence</button>
+              </li>
+
+              <li class="select-item"></li>
+                <button data-select-item>Data Analysis</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Quantum Computing</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="scientific software">
+              <a href="https://github.com/erick-rios/Molecular-Dynamics" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/molecular-dynamics.png" alt="finance" loading="lazy">
+                </figure>
+            
+                <h3 class="project-title">Molecular Dynamics Simulation</h3>
+                <p class="project-category">Scientific Software</p>
+              </a>
+            </li>
+            
+            <li class="project-item active" data-filter-item data-category="scientific software">
+              <a href="https://github.com/erick-rios/ISINGenerator" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/ISINGenerator(3).png" alt="orizon" loading="lazy">
+                </figure>
+            
+                <h3 class="project-title">ISINGenerator</h3>
+                <p class="project-category">Scientific Software</p>
+              </a>
+            </li>
+            
+
+            <li class="project-item active" data-filter-item data-category="scientific software">
+              <a href="https://github.com/erick-rios/ComputationalComplexity" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/computational_complexity.jpeg" alt="fundo" loading="lazy">
+                </figure>
+            
+                <h3 class="project-title">Computational Complexity</h3>
+                <p class="project-category">Scientific Software</p>
+              </a>
+            </li>
+            
+
+            <li class="project-item active" data-filter-item data-category="scientific software">
+              <a href="https://github.com/erick-rios/parallel_programming_CUDA" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/nvidia-docker.png" alt="fundo" loading="lazy">
+                </figure>
+            
+                <h3 class="project-title">CUDA Software</h3>
+                <p class="project-category">Scientific Software</p>
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="artificial intelligence">
+              <a href="https://github.com/erick-rios/COVID19-erick-rios">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/covid.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">COVID 19 in Mexico</h3>
+
+                <p class="project-category">Artificial Intelligence</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="quantum computing">
+              <a href="https://github.com/erick-rios/Quantum-Computing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Quantum.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Quantum Computing</h3>
+
+                <p class="project-category">Quantum Computing</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #ARTICLES
+      -->
+
+      <!-- #ARTICLES -->
+
+      <article class="blog" data-page="articles">
+
+        <header>
+          <h2 class="h2 article-title">Articles</h2>
+        </header>
+      
+        <section class="blog-posts">
+      
+          <ul class="blog-posts-list">
+      
+            <!-- Primer artículo con previsualización de PDF -->
+            <li class="blog-post-item">
+              <a href="./assets/pdfs/QuantumSpanish.pdf" download="QuantumSpanish.pdf">
+                <figure class="blog-banner-box">
+                  <!-- Previsualización del primer PDF -->
+                  <iframe src="./assets/pdfs/QuantumSpanish.pdf" width="100%" height="300px" frameborder="0" allowfullscreen></iframe>
+                </figure>
+      
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Quantum Computing Research</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-09-21">Sep 21, 2024</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">How to Add Two Integers in a Quantum Computer? Applications of the Quantum Fourier Transform</h3>
+                  <p class="blog-text">Explore the applications of the Quantum Fourier Transform.</p>
+                </div>
+              </a>
+            </li>
+      
+            <!-- Segundo artículo con previsualización de PDF -->
+            <li class="blog-post-item">
+              <a href="./assets/pdfs/Ising_model_template_article-1.pdf" download="IsingModel2D.pdf">
+                <figure class="blog-banner-box">
+                  <!-- Previsualización del segundo PDF -->
+                  <iframe src="./assets/pdfs/Ising_model_template_article-1.pdf" width="100%" height="300px" frameborder="0" allowfullscreen></iframe>
+                </figure>
+      
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Statistical Physics, Solid State</p>
+                    <span class="dot"></span>
+                    <time datetime="2024-09-21">Sep 16, 2024</time>
+                  </div>
+                  <h3 class="h3 blog-item-title">Analysis of the Correlation of Physical, Topological, and Geometric Variables in the Phase Transition of a 2D Ising Model</h3>
+                  <p class="blog-text">Explore the correlation between physical, topological, and geometric variables to explain a 2D Ising Model.</p>
+                </div>
+              </a>
+            </li>
+      
+          </ul>
+      
+        </section>
+      </article>
+      
+<!--
+  - #BLOG
+-->
+
+<article class="blog" data-page="blog">
+
+  <header>
+    <h2 class="h2 article-title">Blog</h2>
+  </header>
+
+  <section class="blog-posts">
+
+    <ul class="blog-posts-list">
+
+      <li class="blog-post-item">
+        <a href="#">
+
+          <figure class="blog-banner-box">
+            <img src="./assets/images/gaming-sierra.jpg" alt="Videogames I recommend" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">Videogames</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2024-09-21">Sep 21, 2024</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">Videogames I Recommend</h3>
+
+            <p class="blog-text">
+              Explore my favorite video games that I highly recommend for all types of gamers.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+      <li class="blog-post-item">
+        <a href="#">
+
+          <figure class="blog-banner-box">
+            <img src="./assets/images/fig3.jpg" alt="Music I listen to" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">Music</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2024-09-21">Sep 21, 2024</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">Music I Like Listening to</h3>
+
+            <p class="blog-text">
+              Discover the music that inspires me, from classical to modern genres.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+      <li class="blog-post-item">
+        <a href="#">
+
+          <figure class="blog-banner-box">
+            <img src="./assets/images/composicion-8-kandinsky.jpg" alt="Paint I love to look at" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">Art</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2024-09-21">Sep 21, 2024</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">Paint I Love Looking at</h3>
+
+            <p class="blog-text">
+              A showcase of stunning paintings that captivate my imagination and soul.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+      <li class="blog-post-item">
+        <a href="#">
+
+          <figure class="blog-banner-box">
+            <img src="./assets/images/library.jpg" alt="Books I have read" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">Books</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2024-09-21">Sep 21, 2024</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">Books I Have Read</h3>
+
+            <p class="blog-text">
+              A list of books that have left a lasting impression on me.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+    </ul>
+
+  </section>
+  
+
+</article>
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.930984019292!2d-99.17218322583686!3d19.349909286937142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ffdcbe23dd01%3A0xdec5f4203bfd1f90!2sCoyoac%C3%A1n%2C%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1sen!2smx!4v1695385434441!5m2!1sen!2smx"
+              width="400" height="300" loading="lazy" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </figure>
+        </section>
+        
+
+        <section class="social-media">
+          <h3 class="h3 social-title">Follow Me</h3>
+          <div class="social-icons has-scrollbar">
+              <a href="https://www.facebook.com/profile.php?id=100063899083605" target="_blank">
+                  <i class="fab fa-facebook-square"></i>
+              </a>
+              <a href="https://www.instagram.com/sogeki2309/" target="_blank">
+                  <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://x.com/erick_rios5872" target="_blank">
+                  <i class="fab fa-x"></i>
+              </a>
+              <a href="https://www.twitch.tv/gamingsierra" target="_blank">
+                  <i class="fab fa-twitch"></i>
+              </a>
+            </a>
+            <a href="https://github.com/erick-rios" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+              <a href="mailto:erickjesusriosgonzalez@gmail.com">
+                  <i class="fas fa-envelope"></i>
+              </a>
+          </div>
+      </section>
+      
+        
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- Asegúrate de incluir el enlace a Font Awesome en tu <head> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- CSS para el estilo -->
+<style>
+  .social-icons {
+      display: flex;
+      justify-content: center; /* Centra los iconos horizontalmente */
+      gap: 40px; /* Espaciado entre iconos */
+  }
+  
+  .social-icons a {
+      font-size: 80px; /* Tamaño de los iconos */
+      color: #2e526c; /* Color deseado */
+      text-decoration: none; /* Quita subrayado */
+  }
+  
+  .social-icons a:hover {
+      color: #b0906a; /* Color al pasar el mouse */
+  }
+</style>
+</body>
+
+</html>
