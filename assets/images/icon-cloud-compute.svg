@@ -1,18 +1,1 @@
-<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background Gradient -->
-  <defs>
-    <linearGradient id="cloudGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#253034;stop-opacity:0.15" />
-      <stop offset="0%" style="stop-color:#2e526c;stop-opacity:1" />
-    </linearGradient>
-  </defs>
-
-  <!-- Cloud Shape -->
-  <path d="M48,32a12,12,0,0,0-12-12,11.53,11.53,0,0,0-3.25.47,8.5,8.5,0,1,0-11.5,11.1,10.85,10.85,0,0,0-.25,2.43,10,10,0,0,0,10,10H48a8,8,0,0,0,0-16Z" fill="url(#cloudGradient)" />
-  
-  <!-- Cloud outline -->
-  <path d="M48,33.5H31.5a8.5,8.5,0,0,1-8.5-8.5c0-.29,0-.58.04-.86a7.5,7.5,0,1,1,10.15-8.24,12,12,0,1,1,15.9,17.6Z" stroke="url(#cloudGradient)" stroke-width="1" fill="none" />
-
-  <!-- Computing symbol (lines representing data) -->
-  <path d="M21,38H27v2H21zM29,40H35v2H29zM23,44H29v2H23z" fill="url(#cloudGradient)" />
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 336c0 79.5 64.5 144 144 144l368 0c70.7 0 128-57.3 128-128c0-61.9-44-113.6-102.4-125.4c4.1-10.7 6.4-22.4 6.4-34.6c0-53-43-96-96-96c-19.7 0-38.1 6-53.3 16.2C367 64.2 315.3 32 256 32C167.6 32 96 103.6 96 192c0 2.7 .1 5.4 .2 8.1C40.2 219.8 0 273.2 0 336z"/></svg>
