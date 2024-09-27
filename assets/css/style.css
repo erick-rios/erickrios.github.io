@@ -1235,14 +1235,22 @@
   
   .social-icons {
     display: flex;
-    justify-content: space-between; /* Distribuye los iconos equitativamente */
-    flex-wrap: wrap; /* Hace que los íconos pasen a la siguiente línea en pantallas pequeñas */
-    gap: 10px; /* Espaciado entre los iconos */
+    justify-content: center; /* Centra los íconos */
+    flex-wrap: wrap; /* Hace que los íconos pasen a la siguiente línea si es necesario */
+    gap: 10px; /* Espaciado entre los íconos */
   }
   
   .social-icons a {
-    flex: 1 1 20%; /* Asegura que los íconos se ajusten proporcionalmente */
+    flex: 1 1 auto; /* Permite que los íconos se ajusten automáticamente */
     text-align: center;
+    font-size: 24px; /* Asegura que el tamaño de los íconos sea consistente */
+  }
+  
+  @media (max-width: 600px) {
+    .social-icons a {
+      flex: 1 1 30%; /* Hace que los íconos sean más grandes en pantallas pequeñas */
+      font-size: 20px; /* Ajusta el tamaño de los íconos para que se vean bien en móviles */
+    }
   }
   
   
